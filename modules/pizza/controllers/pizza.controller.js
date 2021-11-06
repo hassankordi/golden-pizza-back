@@ -9,7 +9,7 @@ const addToPizzaSec = async (req, res) => {
     // != undefined
     if (req.file ) {
         
-        img_src = `http://localhost:2526/${req.file.path}`
+        img_src = `${process.env.BASE_URL}/${req.file.path}`
 
     }
 

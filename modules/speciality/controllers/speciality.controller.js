@@ -8,7 +8,7 @@ const addToSpecialitySec = async (req, res) => {
     let img_src ='';
     if (req.file != undefined) {
         // img_src = req.file.path
-        img_src = `http://localhost:2526/${req.file.path}`
+        img_src = `${process.env.BASE_URL}/${req.file.path}`
 
     }
 

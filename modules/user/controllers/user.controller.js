@@ -54,7 +54,7 @@ const sign_up = async (req, res) => {
                     text: 'verify your account here',
                     html: `<div>
                                <p>verify your account here</p>
-                               <a href='http://localhost:7000/verifyUser/${token}'>verify
+                               <a href='${process.env.BASE_URL}/verifyUser/${token}'>verify
                              </div>`
                 });
 
