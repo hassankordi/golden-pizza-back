@@ -6,6 +6,7 @@ const { ADD_TO_SPECIALITY_SEC, GET_SPECIALITY_SEC } = require('../../../modules/
 const { ADD_TO_COMBOS_SEC } = require('../../../modules/combos/combos.endpoint')
 const { ADD_TO_DEALS_SEC } = require('../../../modules/deals/deals.endpoint')
 const { ADD_TO_ADDITIONS_SEC } = require('../../../modules/additions/additions.endpoint')
+const { ADMIN_ACCESS_CATEGORIES } = require('../../../modules/categories/categories.endpoint')
 
 ADD_TO_COMBOS_SEC
 module.exports = [
@@ -23,7 +24,9 @@ module.exports = [
 
     ADD_TO_DEALS_SEC,
 
-    ADD_TO_ADDITIONS_SEC
+    ADD_TO_ADDITIONS_SEC,
+
+    ADMIN_ACCESS_CATEGORIES
 
 
 
