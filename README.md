@@ -55,6 +55,9 @@ the email and password to send verify link to any new user
 base url 
 connection string for mongoDB
 
+## hint:
+you maybe get some problems on file uploads and this problems because the free host
+
 
 
 
